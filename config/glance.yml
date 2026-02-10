@@ -284,7 +284,7 @@ pages:
                     hide-arrow: true
                     icon: si:youtube
 
-  - name: Social
+  - name: Youtube
     width: slim
 
     columns:
@@ -292,8 +292,7 @@ pages:
         widgets:
           - type: videos
             limit: 25
-            collapse-after-rows: 2
-            collapse-after: 4
+            collapse-after-rows: 10
             style: grid-cards
             channels:
               - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
@@ -325,6 +324,12 @@ pages:
               - UCgbw0F-frjDxvQjzruGRJwg # The Serial Port
               - UC-TGXkeSMAxvv9FAK2Tw-7Q # Truenas tech Talk
 
+  - name: Social
+    width: slim
+
+    columns:
+      - size: full
+        widgets:
           - type: group
             title: reddit & tech news
             widgets:

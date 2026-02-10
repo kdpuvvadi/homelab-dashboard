@@ -431,6 +431,10 @@ pages:
             url: https://guard.dns.puvvadi.net
             username: ${ADGUARD_USERNAME}
             password: ${ADGUARD_PASSWORD}
+          - type: dns-stats
+            service: pihole-v6
+            url: https://dns.local.puvvadi.net
+            password: ${PIHOLE_PASSWORD}
           - type: calendar
             first-day-of-week: monday
             show-week-numbers: true

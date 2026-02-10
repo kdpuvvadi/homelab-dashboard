@@ -215,11 +215,11 @@ pages:
 
               - title: Network & Infra
                 links:
-                  - title: Omada
-                    url: https://omada.local.puvvadi.net/#home
-                    target: _blank
-                    hide-arrow: true
-                    icon: si:omadacloud
+                  # - title: Omada
+                  #   url: https://omada.local.puvvadi.net/#home
+                  #   target: _blank
+                  #   hide-arrow: true
+                  #   icon: si:omadacloud
                   - title: Unifi
                     url: https://ui.local.puvvadi.net/network/default/dashboard
                     target: _blank

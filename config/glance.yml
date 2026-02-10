@@ -429,7 +429,7 @@ pages:
           - type: dns-stats
             service: adguard
             url: https://guard.dns.puvvadi.net
-            username: kdpuvvadi
+            username: ${ADGUARD_USERNAME}
             password: ${ADGUARD_PASSWORD}
           - type: calendar
             first-day-of-week: monday

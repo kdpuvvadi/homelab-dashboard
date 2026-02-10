@@ -291,8 +291,8 @@ pages:
       - size: full
         widgets:
           - type: videos
-            limit: 25
-            collapse-after-rows: 10
+            limit: 50
+            collapse-after-rows: 6
             style: grid-cards
             channels:
               - UCXuqSBlHAE6Xw-yeJA0Tunw # Linus Tech Tips
